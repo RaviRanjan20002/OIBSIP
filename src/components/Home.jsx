@@ -1,19 +1,19 @@
-import React from 'react';
-import img from "../images/logoo.png";
- const Home = () => {
+import React from 'react'
+import boy from "../photos/boy.jpg";
+const Home = () => {
   return (
-    <>
-    <div className='home'>
-        <img class="lg"src={img} alt="logo"/>
-        <p className='p'>The 2023 Indian Premier League (also known as TATA IPL 2023 
-        for sponsorship reasons and sometimes referred as IPL 2023 or IPL 16) 
-        is the ongoing 16th season of the Indian Premier League, a franchise 
-        Twenty20 cricket league in India. It is owned and operated by Board of
-         Control for Cricket in India (BCCI).
-         </p>
+    <div class="home">
+    <div class='img'>
+    <img src={boy} alt="boy"/>
     </div>
-    </>
+    <div class="txt">
+      <h1>MY PROFILIO WEBSITE</h1>
+      <p>Myself Ravi Ranjan kumar.I am from Bihar .currently , i am doing virtual internship at <b>oasis infobyte</b> 
+       This is my second task of level1 to create a profilio website</p>
+      <p></p>
+    </div>
+    </div>
   )
 }
 
-export default Home 
+export default Home
